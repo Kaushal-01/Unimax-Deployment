@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unimax Surveillance & HR Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="icon.jpg">
+
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f7f8fc;
+            color: #333;
+            padding-top: 10px; 
+        }
+        
+        nav {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+        }
+
+        .btn-learn-more {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-learn-more:hover {
+            background-color: #555;
+        }
+
+        .home-card {
+            width: 300px;
+            height: 250px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin: 10px;
+        }
+
+        .home-card img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            border-radius: 8px; 
+        }
+
+        .home-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-card {
+            border: none;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 50px;
+        }
+
+        .info-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #fff;
+            color: rgb(17, 15, 15);
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            margin-bottom:30px;
+        }
+
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Unimax Surveillance & HR Management</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title mt-5">Our Services</h2>
+                <div class="col-md-6 mb-4">
+                    <div class="card info-card">
+                        <h3 class="card-title">Surveillance & Investigation</h3>
+                        <p class="card-text">Proficient in surveillance and detailed claims inquiries.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card info-card">
+                        <h3 class="card-title">Human Resource</h3>
+                        <p class="card-text">Extensive HR investigations for consistent hiring practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="info-card m-5">
+        <h4 class="section-title">Claims Verification and Processing</h4><br>
+        <p class="justified-text"> 
+            Claims verification and processing are essential functions for insurance companies, impacting customer retention, service quality, operational costs, and profitability. Delays, inadequate service, and errors in claims handling can harm a company's reputation and business.
+            <br><br>
+            <strong>UNIMAX</strong> provides a comprehensive, end-to-end claims service protocol designed to minimize processing time, reduce costs, and enhance efficiency. Our services offer a unified solution for all your factual data requirements, including:<br>
+            <ul><b>
+                <li>Complete Service Suite</li>
+                <li>Nationwide Reach</li>
+                <li>Skilled Professionals</li>
+                <li>Relevant Liaison Support</li></b>
+            </ul>
+            Our claims experts bring extensive experience in the Indian insurance sector, leveraging our nationwide presence to offer logistical advantages and essential support across various insurance-related organizations.
+            <br><br>
+
+            With the liberalization of the insurance market, competition has intensified. Companies must now pair product differentiation with exceptional claims servicing to delight customers and streamline processes. <strong>UNIMAX</strong> is committed to delivering top-tier managed services that create a reliable factual data environment for the insurance industry.
+            <br><br>
+
+            <h4 class="section-title">Health Insurance Claims Verification</h4><br>
+            <strong>UNIMAX</strong> partners with leading players in the insurance industry to foster a fact-based claims investigation environment. With expert personnel and advanced technology, we assist clients in achieving quicker and more efficient claim reimbursements. Our outsourcing solutions encompass three primary types of insurance: Health, Life, and General.<br><br>
+
+            Our dedicated team for health insurance claims investigation is well-versed in various claims scenarios, including health issues and disease management. This expertise ensures precise evaluations of each claim, preventing losses from fraudulent or miscalculated claims.
+            <br><br>
+            Recognizing that claims processing heavily relies on the information provided by claimants, <strong>UNIMAX</strong> emphasizes the importance of complete and accurate data submissions.
+            <br><br>
+
+            <h4 class="section-title">Life Insurance</h4><br>
+            <strong>UNIMAX</strong> delivers comprehensive verification and processing solutions for the life insurance sector, enabling companies to determine the correct claim amounts and expedite processes through our extensive network and expertise. Our team collaborates with local entities, including hospitals and law enforcement, to ensure thorough analysis of legal and medical documents to prevent fraud.<br><br>
+
+            The threat of false claims is significant, especially in life insurance, where the amounts involved can be substantial. <strong>UNIMAX</strong> safeguards insurers' interests by thoroughly verifying each claim, utilizing professional expertise, technology, and local networks to provide reliable claims verification services.<br><br>
+
+            Our verification process begins with collecting critical information from the deceased's immediate family, including:<br>
+            <ul><b>
+                <li>Proposal Form</li>
+                <li>Age Verification</li>
+                <li>Death Certificate</li>
+                <li>Claim Forms</li>
+                <li>Case Sheets</li></b>
+            </ul>
+            <br>
+            Key focus areas include establishing the cause of death or accident, verifying the legitimacy of claimants, and ensuring all necessary legal and medical documentation is authentic.<br><br>
+
+            <h4 class="section-title">General Insurance</h4><br>
+            <strong>UNIMAX</strong> offers verification and processing solutions tailored for the general insurance sector. Our comprehensive services aid companies in accurately determining claim amounts, fostering operational efficiency in both cost and time. As insurance requirements expand to cover more assets—such as vehicles, travel, and home loans—accurate claims verification becomes increasingly crucial.<br><br>
+
+            Our investigation process involves collecting the following information from claimants:<br>
+            <b><ul>
+                <li>Proposal Form</li>
+                <li>Proof of Asset Ownership</li>
+                <li>First Information Report (FIR)</li>
+                <li>Claim Forms</li>
+                <li>Case Sheets</li>
+            </ul></b>
+            <br>
+            Key assurance areas in our general insurance services include:<br>
+            <ul>
+                <li><b>Asset and Site Verification:</b> We provide prompt inspections and verifications across our extensive nationwide network.</li>
+                <li><b>Documentation Review:</b> Our team consists of experts from investigative, forensic, and legal backgrounds who meticulously evaluate all relevant documents to ensure accurate asset valuations.</li>
+                <li><b>Intent and Ownership Verification:</b> We establish the genuine intent behind claims and verify asset ownership, mitigating the risk of inflated claims.</li> 
+            </ul>
+            <br>
+
+            <strong>UNIMAX</strong>'s robust understanding of documentation norms and regulations across various Indian states, combined with our own nationwide network, positions us as a leader in expediting claims processing through our expertise in IT and analytics.<br>
+        </p>
+    </div>
+
+     <footer>
+        <p>&copy; 2024 <b>Unimax Surveillance & HR Management Pvt. Ltd.</b> All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll(".fade-in");
+            elements.forEach(el => el.classList.add("visible"));
+        });
+    </script>
+</body>
+</html>
+    
