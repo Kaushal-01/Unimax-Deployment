@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unimax Surveillance & HR Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="icon.jpg">
+
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f7f8fc;
+            color: #333;
+            padding-top: 10px; 
+        }
+        
+        nav {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+        }
+
+        .btn-learn-more {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-learn-more:hover {
+            background-color: #555;
+        }
+
+        .home-card {
+            width: 300px;
+            height: 250px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin: 10px;
+        }
+
+        .home-card img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            border-radius: 8px; 
+        }
+
+        .home-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-card {
+            border: none;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 50px;
+        }
+
+        .info-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #fff;
+            color: rgb(17, 15, 15);
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            margin-bottom:30px;
+        }
+
+        footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Unimax Surveillance & HR Management</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title mt-5">Our Services</h2>
+                <div class="mb-4">
+                    <div class="card info-card">
+                        <h3 class="card-title">Human Resource</h3>
+                        <p class="card-text">Extensive HR investigations for consistent hiring practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="info-card m-5">
+        <h4 class="section-title">Human Resource</h4><br>
+        <p class="justified-text"> 
+            <strong>UNIMAX Surveillance & HR Mgmt. Private Limited</strong> offers services in Permanent Hire, Temping & Contracting, and Volume Hire in India. Recognizing that each industry has its own nuances in terms of management style, hiring practices, and compensation norms, UNIMAX provides specialized and value-added recruiting solutions in the following sectors:
+        <br><br>
+        <b>Industries We Serve:</b>
+        <ul>
+            <li>Manufacturing (Engineering | Process | R&D)</li>
+            <li>Infrastructure & Energy</li>
+            <li>Healthcare</li>
+            <li>Information Technology</li>
+            <li>IT Enabled Services</li>
+            <li>Telecom</li>
+            <li>Retail Financial Services</li>
+            <li>Consumer</li>
+        </ul>
+        <br>
+
+        <h4 class="section-title">Welcome to UNIMAX’s Security Services</h4><br>
+        We are industrial security and maintenance consultants, providing comprehensive security solutions through trained personnel specializing in vigilance, patrolling, gate control, investigations, and crime prevention. Our smartly uniformed staff enhances the prestige of your institution while ensuring a secure environment.
+        <br><br>
+
+        <h4 class="section-title">Our Services</h4>
+        <b>Guarding Services:</b>
+        <ul>
+            <li>Officers</li>
+            <li>Supervisors</li>
+            <li>Head Guards</li>
+            <li>Guards</li>
+            <li>Armed Guards</li>
+        </ul>
+        <br>
+
+        <h4 class="section-title">Security Officers</h4><br>
+        Our security officers, primarily ex-army personnel, oversee security operations, liaise with law enforcement, and ensure security infrastructure is well-maintained. Their responsibilities include:
+        <ul>
+            <li>Formulating security plans</li>
+            <li>Administering security personnel</li>
+            <li>Implementing covert security measures</li>
+        </ul>
+        <br>
+
+        <h4 class="section-title">Additional Services</h4> <br>
+        <strong>Detective Services / Background Screening:</strong> We conduct staff verifications, matrimonial investigations, surveillance, and trademark protection.<br><br>
+
+        <b>Electronic Security:</b> Our 24/7 electronic surveillance solutions enhance security for homes and businesses.<br><br>
+
+        <b>Housekeeping:</b> We provide cleaning staff, dispatchers, telephone operators, receptionists, peons, pantry staff, gardeners, and drivers.<br><br>
+
+        <b>Portable Security Cabins/Guard Rooms:</b> Specially designed security cabins enhance efficiency and improve workplace security.<br><br>
+
+        <strong>UNIMAX</strong> ensures a secure and well-maintained working environment, allowing businesses to focus on growth while we handle security and HR challenges.
+        </p>
+    </div>
+
+     <footer>
+        <p>&copy; 2024 <b>Unimax Surveillance & HR Management Pvt. Ltd.</b> All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const elements = document.querySelectorAll(".fade-in");
+            elements.forEach(el => el.classList.add("visible"));
+        });
+    </script>
+</body>
+</html>
+    
